@@ -1,6 +1,6 @@
 :root {
   --primary: #b6895b;
-  --bg: #010101;
+  --bg: #050000;
 }
 
 * {
@@ -90,7 +90,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../css/img/bagraund.jpg");
+  background-image: url("../css/img/bg77.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@ body {
 
 .about h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -190,7 +190,7 @@ body {
 
 .about .row p {
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 100;
   line-height: 0.8;
   text-align: center;
@@ -231,22 +231,26 @@ body {
 }
 .menu .row .menu-card .menu-card-title {
   margin: 0rem auto 0rem;
+  font-size: 2rem;
 }
 
 .menu .row .menu-card .menu-card-price {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* footer */
 footer {
   background-color: var(--primary);
   text-align: center;
-  padding: 3rem 0;
+  padding: 1rem;
   margin-top: 1rem;
 }
 
 footer .socials {
   padding: 1rem 0;
+  font-size: 1rem;
+  width: 20rem;
+  display: inline-flex;
 }
 
 footer .socials a {
@@ -261,7 +265,7 @@ footer .socials a:hover {
 footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: 5rem 0;
 }
 
@@ -271,6 +275,7 @@ footer .links a:hover {
 
 footer .credit a {
   color: var(--bg);
+  font-size: 1.5rem;
 }
 /* media queries */
 
